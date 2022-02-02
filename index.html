@@ -4,9 +4,136 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/5548c84970.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Paste this code in your HTML File -->
+
+    <link rel="stylesheet" href="./styles/main.css" />
+    <!-- Happy Coding  😊 -->
+    <script defer src="./components/navbar/navbar.js"></script>
     <title>Bee UI</title>
   </head>
-  <body>
-    <h1>Bee UI</h1>
+
+  <body class="flex-column">
+    <!-- ------ -->
+    <!-- Navbar Starts -->
+    <!-- ------ -->
+
+    <navbar class="flex-row bg-d-blue text-white">
+      <div class="navbar-list navbar-primary flex-row">
+        <a href="#" class="text-white"><h1>🐝 Bee UI</h1></a>
+      </div>
+      <div class="navbar-list navbar-social">
+        <button class="hamburger-menu-btn">
+          <i class="fas fa-bars"></i>
+        </button>
+        <ul class="flex-row navbar-ul">
+          <li>
+            <a href="#" class="navbar-link text-white">Documentation</a>
+          </li>
+          <li>
+            <a href="" class="fa-icon text-white"
+              ><i class="fab fa-github"></i
+            ></a>
+          </li>
+          <li>
+            <a href="" class="fa-icon text-white"
+              ><i class="fab fa-twitter"></i
+            ></a>
+          </li>
+          <li>
+            <a href="" class="fa-icon text-white"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+          </li>
+          <li>
+            <a href="" class="fa-icon text-white"
+              ><i class="far fa-moon"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </navbar>
+
+    <!-- ------ -->
+    <!-- Primary Section Starts -->
+    <!-- ------ -->
+    <section class="primary-section flex-row">
+      <div class="section-content flex-column">
+        <h2>Get Buzzy developing With Bee UI</h2>
+        <p>
+          The Buzz of the town, quick and easy to implement, light-weight UI
+          components to get you started with your projects in a jiffy
+        </p>
+        <div class="section-btns">
+          <button class="secondary-btn">Installation</button>
+          <button class="primary-btn">Documentation</button>
+        </div>
+      </div>
+      <div class="hero-img">
+        <img src="./assets/pablo-983.png" alt="" />
+      </div>
+    </section>
+    <!-- ------ -->
+    <!-- Secondary Section Starts -->
+    <!-- ------ -->
+
+    <section class="secondary-section flex-row">
+      <div class="section-content flex-column">
+        <h1>Installation</h1>
+        <p>
+          Copy and paste the code in the head tag of your html document. So that
+          you can style your components just by adding class names to your html
+          elements.
+        </p>
+        <p>
+          To know about the styled components, their variations, read the
+          documentation
+        </p>
+        <div class="section-btns">
+          <button class="secondary-btn">Get Started</button>
+          <button class="primary-btn">Documentation</button>
+        </div>
+      </div>
+      <div class="hero-img iframe-container">
+        <iframe
+          class="iframe-snap"
+          src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=night-owl&wt=sharp&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=13px&lh=232%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%253C%21--%2520Paste%2520this%2520code%2520in%2520your%2520HTML%2520File%2520--%253E%250A%250A%2520%2520%2520%2520%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522.%252Fstyles%252Fmain.css%2522%2520%252F%253E%250A%250A%2520%2520%2520%2520%253C%21--%2520Happy%2520Coding%2520%2520%25F0%259F%2598%258A%2520--%253E%250A"
+          style="
+            width: 446px;
+            height: 340px;
+            border: 0;
+            transform: scale(1);
+            overflow: hidden;
+          "
+          sandbox="allow-scripts allow-same-origin"
+        >
+        </iframe>
+      </div>
+    </section>
+
+    <footer class="bg-d-blue flex-row">
+      <div class="navbar-list navbar-social">
+        <ul class="flex-row">
+          <li>
+            <a href="" class="fa-icon text-white"
+              ><i class="fab fa-github"></i
+            ></a>
+          </li>
+          <li>
+            <a href="" class="fa-icon text-white"
+              ><i class="fab fa-twitter"></i
+            ></a>
+          </li>
+          <li>
+            <a href="" class="fa-icon text-white"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
   </body>
 </html>
