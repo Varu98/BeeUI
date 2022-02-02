@@ -1,0 +1,140 @@
+@import url(./main.css);
+
+/* ------------- */
+/* Buttons */
+/* ------------- */
+
+.primary-btn {
+  background-color: hsl(var(--bee-yellow));
+  padding: 0.7rem 1rem;
+  margin: 1rem 1rem;
+  color: hsl(var(--dark-blue));
+  font-weight: 900;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+}
+.primary-btn:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+.secondary-btn {
+  background-color: hsl(var(--light-blue));
+  padding: 0.7rem 1rem;
+  margin: 1rem 1rem;
+  color: hsl(var(--white) / 2);
+  font-weight: 900;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+}
+.secondary-btn:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+@media (max-width: 768px) {
+  .section-btns {
+    text-align: center;
+  }
+}
+
+.hamburger-menu-btn {
+  display: none;
+  background-color: transparent;
+  border: none;
+  font-size: 2rem;
+  color: #fff;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  .hamburger-menu-btn {
+    display: block;
+  }
+}
+/* ======= */
+/* Navbar */
+/* ======= */
+.fa-icon {
+  font-size: 1.7rem;
+  padding: 0.5rem;
+}
+@media (max-width: 768px) {
+  .navbar-social {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .navbar-ul {
+    display: none;
+    flex-direction: column;
+    text-align: center;
+    flex: 0 1 100%;
+    padding: 1rem;
+  }
+  .navbar-ul.show {
+    display: flex;
+  }
+}
+/* ------------- */
+/*  Section Component */
+/* Note - Please remember to 
+check section utility class as well
+*/
+/* ------------- */
+
+/* Primary section */
+.primary-section {
+  margin-top: 3rem;
+  min-height: 80vh;
+  align-items: center;
+}
+@media (max-width: 768px) {
+  .primary-section {
+    min-height: auto;
+  }
+}
+.section-content {
+  max-width: 25rem;
+  align-self: center;
+}
+
+@media (max-width: 768px) {
+  .section-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 90%;
+    height: auto;
+    flex: 0 1 100%;
+  }
+}
+
+/* Secondary section */
+.secondary-section {
+  margin: 3rem;
+  height: auto;
+  width: 90%;
+}
+@media (max-width: 768px) {
+  .secondary-section {
+    min-height: auto;
+  }
+}
+/* Images */
+.hero-img {
+  width: 50%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .hero-img {
+    min-width: 100%;
+  }
+  /* .iframe-container {
+    position: relative;
+  }
+  .iframe-snap {
+    position: absolute;
+    right: 3%;
+  } */
+}
