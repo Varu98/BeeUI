@@ -1,0 +1,128 @@
+@import url(./main.css);
+
+.wrapper h2 {
+  margin-top: 2rem;
+}
+
+.alert-warning-wrapper {
+  background-color: #ffdb9b;
+  padding: 1rem 2rem;
+  max-width: 25rem;
+  border-radius: 4px;
+  border-left: 8px solid #ffa502;
+  display: flex;
+  justify-content: space-between;
+  max-height: 3rem;
+  align-items: center;
+}
+
+.alert-warning-wrapper .fa-exclamation-circle {
+  margin: 0 0.5rem;
+  font-size: 1rem;
+  color: #ce8500;
+}
+
+.alert-warning-wrapper .msg {
+  margin-right: 1rem;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #ce8500;
+}
+
+.alert-warning-wrapper .fa-times {
+  font-size: 1rem;
+  color: #ce8500;
+}
+
+/* Error Alert */
+
+.alert-error-wrapper {
+  background-color: #f8d7da;
+  padding: 1rem 2rem;
+  max-width: 25rem;
+  border-radius: 4px;
+  border-left: 8px solid #721c24;
+  display: flex;
+  justify-content: space-between;
+  max-height: 3rem;
+  align-items: center;
+}
+
+.alert-error-wrapper .fa-exclamation-circle {
+  margin: 0 0.5rem;
+  font-size: 1rem;
+  color: #721c24;
+}
+
+.alert-error-wrapper .msg {
+  margin-right: 1rem;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #721c24;
+}
+.alert-error-wrapper .fa-times {
+  font-size: 1rem;
+  color: #721c24;
+}
+
+/* info alert` */
+
+.alert-info-wrapper {
+  background-color: #cce5ff;
+  padding: 1rem 2rem;
+  max-width: 25rem;
+  border-radius: 4px;
+  border-left: 8px solid #1c5796;
+  display: flex;
+  justify-content: space-between;
+  max-height: 3rem;
+  align-items: center;
+}
+
+.alert-info-wrapper .fa-exclamation-circle {
+  margin: 0 0.5rem;
+  font-size: 1rem;
+  color: #1c5796;
+}
+
+.alert-info-wrapper .msg {
+  margin-right: 1rem;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #1c5796;
+}
+.alert-info-wrapper .fa-times {
+  font-size: 1rem;
+  color: #1c5796;
+}
+
+/* success alert */
+
+.alert-success-wrapper {
+  background-color: #d4edda;
+  padding: 1rem 2rem;
+  max-width: 25rem;
+  border-radius: 4px;
+  border-left: 8px solid #185927;
+  display: flex;
+  justify-content: space-between;
+  max-height: 3rem;
+  align-items: center;
+}
+
+.alert-success-wrapper .fa-exclamation-circle {
+  margin: 0 0.5rem;
+  font-size: 1rem;
+  color: #185927;
+}
+
+.alert-success-wrapper .msg {
+  margin-right: 1rem;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #185927;
+}
+.alert-success-wrapper .fa-times {
+  font-size: 1rem;
+  color: #185927;
+}
