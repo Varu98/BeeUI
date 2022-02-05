@@ -83,6 +83,19 @@ check section utility class as well
 */
 /* ------------- */
 
+/* Wrapper Component */
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  margin-top: 10%;
+}
+
+.wrapper h2 {
+  margin-top: 2rem;
+}
+
 /* Primary section */
 .primary-section {
   margin-top: 3rem;
@@ -137,12 +150,4 @@ check section utility class as well
     position: absolute;
     right: 3%;
   } */
-}
-
-.wrapper {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-  align-items: center;
-  margin-top: 10%;
 }
