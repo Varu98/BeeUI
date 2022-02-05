@@ -138,3 +138,11 @@ check section utility class as well
     right: 3%;
   } */
 }
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  margin-top: 10%;
+}

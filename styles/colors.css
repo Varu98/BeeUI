@@ -8,6 +8,7 @@
   --grey: 0, 0%, 84%, 1;
   --white: 0 0% 100%;
 }
+
 /* background-color */
 .bg-dark {
   background-color: hsl(var(--black));
