@@ -3,6 +3,7 @@
 /* Buttons */
 /* ------------- */
 
+/* primary Button */
 .primary-btn {
   background-color: hsl(var(--bee-yellow));
   padding: 0.7rem 1rem;
@@ -12,11 +13,14 @@
   border: none;
   border-radius: 5px;
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+  outline: none;
 }
 .primary-btn:hover {
   transform: scale(1.1);
   transition: 0.3s;
 }
+
+/* Secondary Button */
 .secondary-btn {
   background-color: hsl(var(--light-blue));
   padding: 0.7rem 1rem;
@@ -26,18 +30,21 @@
   border: none;
   border-radius: 5px;
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+  outline: none;
 }
 .secondary-btn:hover {
   transform: scale(1.1);
   transition: 0.3s;
 }
 
+/* Primary and Secondary Buttons Combined Div */
 @media (max-width: 768px) {
   .section-btns {
     text-align: center;
   }
 }
 
+/* Hamburger Menu */
 .hamburger-menu-btn {
   display: none;
   background-color: transparent;
@@ -52,5 +59,54 @@
   }
 }
 
+/* Hover Button */
 .hover-btn {
+  color: hsl(var(--white));
+  font-weight: 900;
+  background-color: rgb(255, 0, 68);
+  border: none;
+  outline: none;
+  padding: 0.7rem 1rem;
+  margin: 1rem 1rem;
+  width: 6rem;
+  border-radius: 4px;
+  box-shadow: inset 0 0 0 0 hsl(var(--bee-yellow));
+  transition: ease-in 0.3s;
+}
+
+.hover-btn:hover {
+  box-shadow: inset 6rem 0 0 0 hsl(var(--bee-yellow));
+  cursor: pointer;
+  color: hsl(var(--dark-blue));
+}
+
+/* Outline Button */
+.outline-btn {
+  color: hsl(var(--dark-blue));
+  font-weight: 900;
+  background: none;
+  border: none;
+  outline: none;
+  padding: 0.7rem 1rem;
+  margin: 1rem 1rem;
+  width: 6rem;
+  border-radius: 4px;
+  border: 3px solid hsl(var(--light-blue));
+}
+
+/* Floating  Button */
+.floating-btn {
+  color: hsl(var(--white));
+  font-weight: 900;
+  background: none;
+  border: none;
+  outline: none;
+  padding: 0.7rem 1rem;
+  margin: 1rem 1rem;
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  border: 3px solid hsl(var(--dark-blue));
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  background-color: hsl(var(--light-blue));
 }
