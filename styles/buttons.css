@@ -63,7 +63,7 @@
 .hover-btn {
   color: hsl(var(--white));
   font-weight: 900;
-  background-color: rgb(255, 0, 68);
+  background-color: hsl(var(--light-blue));
   border: none;
   outline: none;
   padding: 0.7rem 1rem;
