@@ -1,57 +1,5 @@
 @import url(./main.css);
 
-/* ------------- */
-/* Buttons */
-/* ------------- */
-
-.primary-btn {
-  background-color: hsl(var(--bee-yellow));
-  padding: 0.7rem 1rem;
-  margin: 1rem 1rem;
-  color: hsl(var(--dark-blue));
-  font-weight: 900;
-  border: none;
-  border-radius: 5px;
-  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
-}
-.primary-btn:hover {
-  transform: scale(1.1);
-  transition: 0.3s;
-}
-.secondary-btn {
-  background-color: hsl(var(--light-blue));
-  padding: 0.7rem 1rem;
-  margin: 1rem 1rem;
-  color: hsl(var(--white) / 2);
-  font-weight: 900;
-  border: none;
-  border-radius: 5px;
-  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
-}
-.secondary-btn:hover {
-  transform: scale(1.1);
-  transition: 0.3s;
-}
-
-@media (max-width: 768px) {
-  .section-btns {
-    text-align: center;
-  }
-}
-
-.hamburger-menu-btn {
-  display: none;
-  background-color: transparent;
-  border: none;
-  font-size: 2rem;
-  color: #fff;
-  cursor: pointer;
-}
-@media (max-width: 768px) {
-  .hamburger-menu-btn {
-    display: block;
-  }
-}
 /* ======= */
 /* Navbar */
 /* ======= */
