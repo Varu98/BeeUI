@@ -49,7 +49,7 @@ check section utility class as well
   display: flex;
   flex-wrap: wrap;
   gap: 3rem;
-  min-width: 30rem;
+  min-width: 10rem;
   justify-content: center;
   align-items: center;
 }
