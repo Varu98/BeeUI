@@ -44,6 +44,16 @@ check section utility class as well
   margin-top: 2rem;
 }
 
+.flex-row-wrapper {
+  margin-top: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  min-width: 30rem;
+  justify-content: center;
+  align-items: center;
+}
+
 /* Primary section */
 .primary-section {
   margin-top: 3rem;
