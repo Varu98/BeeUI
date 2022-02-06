@@ -1,0 +1,57 @@
+@import url(./main.css);
+
+.icon-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background: none;
+  color: #333;
+  border: none;
+  outline: none;
+  min-width: 5rem;
+  min-height: 5rem;
+  border-radius: 50%;
+}
+
+.icon-btn__badge {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 900;
+  background-color: red;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+}
+
+.icon__notification {
+  font-size: 3rem;
+}
+
+.icon__img {
+  max-width: 5rem;
+  max-height: 5rem;
+  position: relative;
+}
+
+.img-btn__badge {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -10%;
+  right: -10%;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 900;
+  background-color: red;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+}
