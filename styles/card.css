@@ -1,0 +1,18 @@
+@import url(./main.css);
+
+.card {
+  background-color: hsl(--white);
+  padding: 1rem;
+  margin: 0.5rem;
+  border: 1px solid #777;
+  border-radius: 4px;
+  max-width: 20rem;
+}
+.card-header {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.card-body {
+  font-size: 0.9rem;
+}
