@@ -2,28 +2,133 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../styles/main.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="../styles/main.css" />
     <title>Cards Component</title>
 </head>
 
+<!-- Card
+Cards with badges
+Cards with dismiss
+Cards with text overlay
+Vertical/Horizontal cards
+Cards with shadow -->
+
 <body>
+    <!-- Card With Text -->
     <div class="wrapper">
         <div class="card">
             <div class="card-header">This Is Wonderful</div>
             <div class="card-body">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos, ipsam numquam, delectus beatae sequi
-                corrupti
-                sit
-                cupiditate provident porro tempore reprehenderit atque qui explicabo rem nihil deserunt dignissimos
-                quam?
-                Corporis.
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos, ipsam
+                numquam, delectus beatae sequi corrupti sit cupiditate provident porro
+                tempore reprehenderit atque qui explicabo rem nihil deserunt
+                dignissimos quam? Corporis.
             </div>
             <div class="card-footer">
                 <button class="primary-btn">Primary</button>
                 <button class="secondary-btn">Secondary</button>
+            </div>
+        </div>
+
+        <!-- Card with Image -->
+        <!-- Card With Text -->
+        <div class="card">
+            <span class="price-card-img">
+                <img src="../assets/realme_phone.jpeg" alt="" />
+            </span>
+            <div class="card-header">This Is Wonderful</div>
+            <div class="card-body">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos, ipsam
+                numquam, delectus beatae sequi corrupti sit cupiditate provident porro
+                tempore reprehenderit atque qui explicabo rem nihil deserunt
+                dignissimos quam? Corporis.
+            </div>
+            <div class="card-footer">
+                <button class="primary-btn">Primary</button>
+                <button class="secondary-btn">Secondary</button>
+            </div>
+        </div>
+
+
+        <!-- Card With Dismiss -->
+        <div class="card">
+            <div class="card-header">
+                This Is Wonderful
+                <span class="material-icons card-icon-right-position"> close </span>
+            </div>
+            <div class="card-body">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos, ipsam
+                numquam, delectus beatae sequi corrupti sit cupiditate provident porro
+                tempore reprehenderit atque qui explicabo rem nihil deserunt
+                dignissimos quam? Corporis.
+            </div>
+            <div class="card-footer">
+                <button class="primary-btn">Primary</button>
+                <button class="secondary-btn">Secondary</button>
+            </div>
+        </div>
+
+        <!-- Card With Price -->
+        <div class="price-card">
+            <span class="price-card-img">
+                <img src="../assets/realme_phone.jpeg" alt="" />
+            </span>
+            <div class="price-card-header">
+                <div class="price-card-product-name">Realme Pro 2050</div>
+                <span class="price-card-product-price">1200 Rs</span>
+                <span class="price-card-price-badge">
+                    <span class="price-card-discount-rate">20%</span>
+                    <span class="material-icons price-card-icon-discount"> discount </span>
+                </span>
+            </div>
+            <div class="price-card-body">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos, ipsam
+                numquam, delectus beatae sequi corrupti sit
+            </div>
+            <div class="price-card-footer">
+                <button class="secondary-btn">Details</button>
+                <button class="primary-btn">
+                    Buy
+                    <span class="material-icons price-card-icon-cart">
+                        shopping_cart
+                    </span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Card With Price Horizontal-->
+        <div class="price-card-horizontal">
+            <span>
+                <img class="price-card-img-horizontal" src="../assets/realme_phone.jpeg" alt="" />
+            </span>
+            <div class="price-card--horizontal-content">
+                <div class="price-card-header">
+                    <div class="price-card-product-name">Realme Pro 2050</div>
+                    <span class="price-card-product-price">1200 Rs</span>
+                    <span class="price-card-price-badge">
+                        <span class="price-card-discount-rate">20%</span>
+                        <span class="material-icons price-card-icon-discount"> discount </span>
+                    </span>
+                </div>
+                <div class="price-card-body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto alias quod vero accusamus id saepe
+                    voluptatibus nihil vel ullam. Suscipit a perspiciatis tempora nisi. Non dolorum nobis veniam id
+                    rerum, beatae delectus itaque, expedita perferendis natus molestiae reiciendis, similique quia sunt
+                    saepe debitis voluptate placeat totam quibusdam fugit sed modi.
+                </div>
+                <div class="price-card-footer">
+                    <button class="secondary-btn">Details</button>
+                    <button class="primary-btn">
+                        Buy
+                        <span class="material-icons price-card-icon-cart">
+                            shopping_cart
+                        </span>
+                    </button>
+                </div>
             </div>
         </div>
     </div>

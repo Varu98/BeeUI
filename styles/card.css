@@ -1,18 +1,122 @@
 @import url(./main.css);
 
 .card {
-  background-color: hsl(--white);
+  display: flex;
+  flex-wrap: wrap;
+  background-color: hsl(var(--white));
   padding: 1rem;
   margin: 0.5rem;
-  border: 1px solid #777;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
   border-radius: 4px;
   max-width: 20rem;
 }
 .card-header {
+  width: calc(20rem - 2rem);
   font-size: 1.5rem;
   margin-bottom: 0.5rem;
+  position: relative;
 }
 
 .card-body {
   font-size: 0.9rem;
+}
+
+.card-icon-right-position {
+  position: absolute;
+  right: 0;
+  cursor: pointer;
+}
+
+.card-icon-right-position:hover,
+:focus {
+  background-color: rgba(119, 119, 119, 0.158);
+}
+
+/* price-card */
+
+.price-card-body {
+  font-size: 0.9rem;
+}
+
+.price-card {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: hsl(var(--white));
+  justify-content: center;
+  padding: 1rem;
+  margin: 0.5rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  max-width: 20rem;
+}
+
+.price-card-header {
+  width: calc(20rem - 2rem);
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  position: relative;
+}
+
+.price-card-img {
+  padding: 1rem;
+  max-width: 40%;
+  margin: auto;
+}
+
+.price-card-icon-cart {
+  margin-left: 0.5rem;
+  font-size: 1rem;
+}
+
+.price-card-icon-discount {
+  font-size: 1rem;
+}
+
+.price-card-product-name {
+  min-width: calc(20rem - 2rem);
+  color: hsl(var(--light-blue));
+  font-weight: 500;
+}
+.price-card-product-price {
+  font-size: 1rem;
+  color: lightskyblue;
+  font-weight: bolder;
+}
+/* .price-card-discount-rate {
+  margin-left: 0.5rem;
+  padding: 0.1rem 0.5rem;
+  border-radius: 4px;
+  background-color: green;
+  color: hsl(var(--white));
+} */
+.price-card-price-badge {
+  position: absolute;
+  right: 0;
+  font-size: 1rem;
+  margin-left: 0.5rem;
+  padding: 0.3rem 0.5rem;
+  border-radius: 4px;
+  background-color: green;
+  color: hsl(var(--white));
+}
+
+/* price car horizontal */
+
+.price-card-horizontal {
+  min-height: 15rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  margin: 1rem;
+}
+.price-card-img-horizontal {
+  padding: 1rem;
+  max-width: 80%;
+}
+.price-card--horizontal-content {
+  padding: 1rem;
+  max-width: 30rem;
 }
