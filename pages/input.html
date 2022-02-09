@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/main.css">
+    <script defer src="../components/input.js"></script>
+
+    <title>Input Component</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <form class="form " action="#" autocomplete="off">
+            <fieldset class="input_fieldset">
+                <input autocomplete="off" type="text" id="firstNameNormal" name="firstName">
+                <label for="firstName">First Name</label>
+                <div class="input-after"></div>
+            </fieldset>
+            <fieldset class="input_fieldset">
+                <input autocomplete="off" type="text" id="lastNameNormal" name="lastName">
+                <label for="lastName">Last Name</label>
+                <div class="input-after"></div>
+            </fieldset>
+            <fieldset class="input_fieldset">
+                <input autocomplete="off" type="text" id="addressNormal" name="address">
+                <label for="address">Address</label>
+                <div class="input-after"></div>
+            </fieldset>
+            <fieldset class="input_fieldset">
+                <input autocomplete="off" type="text" id="emailNormal" name="email">
+                <label for="email">Email</label>
+                <div class="input-after"></div>
+            </fieldset>
+        </form>
+
+        <!-- Validation Form -->
+        <form class="input_form " autocomplete="off">
+            <fieldset class="input_fieldset  ">
+                <input autocomplete="off" type="text" id="firstName" name="firstName">
+                <label for="firstName">First Name</label>
+                <div class="input-after"></div>
+                <span class="material-icons check_icon">
+                    check_circle
+                </span>
+                <span class="material-icons cross_icon">
+                    error
+                </span>
+            </fieldset>
+            <fieldset class="input_fieldset  ">
+                <input autocomplete="off" type="text" id="lastName" name="lastName">
+                <label for="lastName">Last Name</label>
+                <div class="input-after"></div>
+                <span class="material-icons check_icon">
+                    check_circle
+                </span>
+                <span class="material-icons cross_icon">
+                    error
+                </span>
+            </fieldset>
+            <fieldset class="input_fieldset  ">
+                <input autocomplete="off" type="text" id="address" name="address">
+                <label for="address">Address</label>
+                <div class="input-after"></div>
+                <span class="material-icons check_icon">
+                    check_circle
+                </span>
+                <span class="material-icons cross_icon">
+                    error
+                </span>
+            </fieldset>
+            <fieldset class="input_fieldset  ">
+                <input autocomplete="off" type="text" id="email" name="email">
+                <label for="email">Email</label>
+                <div class="input-after"></div>
+                <span class="material-icons check_icon">
+                    check_circle
+                </span>
+                <span class="material-icons cross_icon">
+                    error
+                </span>
+            </fieldset>
+            <button type="submit" class="primary-btn">Submit</button>
+        </form>
+    </div>
+
+</body>
+
+</html>

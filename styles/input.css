@@ -1,0 +1,64 @@
+@import url(./main.css);
+
+.form {
+  display: flex;
+  flex-direction: column;
+  border: 5px dotted hsl(var(--light-blue));
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.input_form {
+  display: flex;
+  flex-direction: column;
+  border: 5px dotted hsl(var(--light-blue));
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.input_fieldset {
+  border: none;
+  margin-top: 1rem 0.5rem;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.input_fieldset label {
+  margin-bottom: 0.5rem;
+  color: hsl(var(--light-blue));
+}
+
+.input_fieldset > input:focus ~ label {
+  color: hsl(var(--bee-yellow));
+}
+
+.input_fieldset input {
+  order: 1;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid hsl(var(--light-blue));
+}
+
+.input_fieldset > input:focus {
+  background-color: #f0ffff;
+}
+.input_fieldset span {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  visibility: hidden;
+}
+
+.input_fieldset.success .check_icon {
+  color: green;
+  visibility: visible;
+}
+.input_fieldset.error .cross_icon {
+  color: red;
+  visibility: visible;
+}
