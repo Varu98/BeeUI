@@ -1,0 +1,30 @@
+@import url(./main.css);
+
+.bar-wrapper {
+  margin: 1rem;
+  display: flex;
+  background-color: var(--russian-violet);
+  max-width: 30rem;
+  color: #fff;
+  padding: 1rem 1rem;
+  justify-content: flex-start;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.37);
+}
+.content {
+  flex: 4;
+}
+.action-btn {
+  color: var(--mauve);
+  background: none;
+  border: none;
+  flex: 0.5;
+  margin-left: 0.7rem;
+}
+.close-btn {
+  color: #fff;
+  background: none;
+  border: none;
+  flex: 0.5;
+}
