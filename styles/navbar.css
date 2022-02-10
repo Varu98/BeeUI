@@ -1,0 +1,24 @@
+/* ======= */
+/* Navbar */
+/* ======= */
+.fa-icon {
+  font-size: 1.7rem;
+  padding: 0.5rem;
+}
+@media (max-width: 768px) {
+  .navbar-social {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .navbar-ul {
+    display: none;
+    flex-direction: column;
+    text-align: center;
+    flex: 0 1 100%;
+    padding: 1rem;
+  }
+  .navbar-ul.show {
+    display: flex;
+  }
+}
