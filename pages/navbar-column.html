@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/main.css">
+    <script defer src="../components/navbar/navbar-column.js"></script>
+    <script defer src="../components/navbar/navbarv2.js"></script>
+    <title>Navigation Bar</title>
+</head>
+
+<body>
+    <header>
+        <nav class="flex">
+            <!-- nav content -->
+            <logo-content class="flex">
+                <div class="logo-img ">
+                    <img src="../assets/bee-icon-purple-short.png" alt="">
+                </div>
+                <h2>BEE UI</h2>
+            </logo-content>
+
+
+            <nav-section>
+                <button class="menu-btn">
+                    <ion-icon size="large" name="menu"></ion-icon>
+                </button>
+                <nav-menu data-visible="false">
+                    <ul class="flex">
+                        <li><a href="#">Documentation</a></li>
+                        <li><a href="#">Github</a></li>
+                        <li><a href="#">Linkedin</a></li>
+                        <li><a href="#">Twitter</a></li>
+                    </ul>
+                </nav-menu>
+            </nav-section>
+        </nav>
+    </header>
+
+
+    <button class="swap-btn">
+        <ion-icon size="large" name="swap"></ion-icon>
+    </button>
+    <nav-components data-visible="false">
+        <ul class="flex">
+            <li><a href="#">Documentation</a></li>
+            <li><a href="#">Github</a></li>
+            <li><a href="#">Linkedin</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Twitter</a></li>
+        </ul>
+    </nav-components>
+
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+</body>
+
+</html>

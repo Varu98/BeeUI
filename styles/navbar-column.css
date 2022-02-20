@@ -1,0 +1,136 @@
+nav {
+  align-items: center;
+  background-color: hsl(var(--gold-web-golden));
+  color: hsl(var(--purple));
+  justify-content: space-between;
+}
+
+logo-content {
+  align-items: center;
+  --gap: 0;
+  margin-left: 1rem;
+}
+
+logo-content h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+.logo-img {
+  max-width: 3rem;
+  padding: 0.5rem;
+}
+
+.logo-img img {
+  width: 100%;
+}
+
+nav-components {
+  background-color: hsl(0 0% 100% /0.5);
+  backdrop-filter: blur(1rem);
+  position: fixed;
+  inset: 0 30% 0 0;
+  flex-direction: column;
+  align-items: center;
+  padding: 5rem;
+  padding-top: 20vh;
+  z-index: 1000;
+  transform: translateX(-100%);
+  transition: transform ease-out 500ms;
+}
+
+nav-components ul {
+  flex-direction: column;
+  align-items: center;
+}
+
+nav-components ul,
+li,
+a {
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: hsl(var(--purple));
+}
+
+nav-components[data-visible="true"] {
+  transform: translateX(0%);
+}
+/* Nav Menu */
+
+nav-menu ul,
+li,
+a {
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: hsl(var(--purple));
+}
+
+nav-menu ul {
+  list-style: none;
+  align-items: center;
+  padding: 1rem;
+}
+
+.swap-btn {
+  display: none;
+}
+
+.menu-btn {
+  display: none;
+}
+
+/* Media Queries */
+@media (max-width: 750px) {
+  nav-menu {
+    position: fixed;
+    inset: 0 0 0 30%;
+    background-color: hsl(0 0% 100% /0.5);
+    backdrop-filter: blur(2rem);
+    z-index: 1000;
+    transform: translateX(100%);
+    transition: transform ease-out 500ms;
+  }
+
+  nav-menu ul {
+    flex-direction: column;
+    --gap: 2rem;
+  }
+
+  nav-menu a {
+    color: hsl(var(--purple));
+  }
+
+  nav-menu[data-visible="true"] {
+    transform: translateX(0%);
+  }
+
+  .menu-btn {
+    display: block;
+    color: hsl(var(--purple));
+    position: absolute;
+    z-index: 9999;
+    width: 1.5rem;
+    top: 0.4rem;
+    right: 2rem;
+    aspect-ratio: 1;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+  }
+
+  .swap-btn {
+    display: block;
+    color: hsl(var(--purple));
+    position: absolute;
+    z-index: 9999;
+    width: 1.5rem;
+    top: 40vh;
+    left: 0.2rem;
+    aspect-ratio: 1;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+  }
+} ;
