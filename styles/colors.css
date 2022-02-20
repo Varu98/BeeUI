@@ -9,6 +9,20 @@
   --white: 0 0% 100%;
   --russian-violet: hsla(262, 100%, 8%, 1);
   --mauve: hsla(278, 100%, 83%, 1);
+
+  /* CSS HSL */
+  --purple: 280 100% 30%;
+  --russian-violet: 280 100% 17%;
+  --pink-lavender: 280 43% 79%;
+  --canary-yellow: 57 100% 50%;
+  --gold-web-golden: 51 98% 49%;
+
+  /* REFERENCE
+  --purple: hsl(280 100% 30%);
+  --russian-violet: hsl(280 100% 17%);
+  --pink-lavender: hsl(280 43% 79%);
+  --canary-yellow: hsl(57 100% 50%);
+  --gold-web-golden: hsl(51 98% 49%); */
 }
 
 /* background-color */
