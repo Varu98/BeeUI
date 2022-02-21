@@ -7,105 +7,144 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
     <link rel="stylesheet" href="../styles/main.css" />
+    <script defer src="../components/navbar/navbarv2.js"></script>
+    <script defer src="../components/navbar/navbar-column.js"></script>
     <title>Cards Component</title>
 </head>
 
-<!-- Card
-Cards with badges
-Cards with dismiss
-Cards with text overlay
-Vertical/Horizontal cards
-Cards with shadow -->
-
 <body>
-    <!-- Card With Text -->
-    <div class="wrapper">
-        <div class="card">
-            <div class="card-header">This Is Wonderful</div>
-            <div class="card-body">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos, ipsam
-                numquam, delectus beatae sequi corrupti sit cupiditate provident porro
-                tempore reprehenderit atque qui explicabo rem nihil deserunt
-                dignissimos quam? Corporis.
-            </div>
-            <div class="card-footer">
-                <button class="primary-btn">Primary</button>
-                <button class="secondary-btn">Secondary</button>
-            </div>
-        </div>
+    <header>
+        <nav class="flex">
+            <!-- nav content -->
+            <logo-content class="flex">
+                <div class="logo-img ">
+                    <img src="../assets/bee-icon-purple-short.png" alt="">
+                </div>
+                <h2>BEE UI</h2>
+            </logo-content>
 
-        <!-- Card with Image -->
-        <!-- Card With Text -->
-        <div class="card">
-            <span class="price-card-img">
-                <img src="../assets/realme_phone.jpeg" alt="" />
-            </span>
-            <div class="card-header">This Is Wonderful</div>
-            <div class="card-body">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos, ipsam
-                numquam, delectus beatae sequi corrupti sit cupiditate provident porro
-                tempore reprehenderit atque qui explicabo rem nihil deserunt
-                dignissimos quam? Corporis.
-            </div>
-            <div class="card-footer">
-                <button class="primary-btn">Primary</button>
-                <button class="secondary-btn">Secondary</button>
-            </div>
-        </div>
+            <!-- nav menu -->
+            <!-- nav btn -->
+            <button class="menu-btn">
+                <ion-icon size="large" name="menu"></ion-icon>
+            </button>
+            <nav-menu data-visible="false">
+                <ul class="flex">
+                    <li><a href="#">Documentation</a></li>
+                    <li><a href="#">Github</a></li>
+                    <li><a href="#">Linkedin</a></li>
+                    <li><a href="#">Twitter</a></li>
+                </ul>
+            </nav-menu>
+        </nav>
 
 
-        <!-- Card With Dismiss -->
-        <div class="card">
-            <div class="card-header">
-                This Is Wonderful
-                <span class="material-icons card-icon-right-position"> close </span>
-            </div>
-            <div class="card-body">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos, ipsam
-                numquam, delectus beatae sequi corrupti sit cupiditate provident porro
-                tempore reprehenderit atque qui explicabo rem nihil deserunt
-                dignissimos quam? Corporis.
-            </div>
-            <div class="card-footer">
-                <button class="primary-btn">Primary</button>
-                <button class="secondary-btn">Secondary</button>
-            </div>
-        </div>
+        <nav-col-l>
+            <ul class="flex navbar-col-l">
+                <li><a href="./avatar.html">Avatar</a></li>
+                <li><a href="./alert.html">Alert</a></li>
+                <li><a href="./badge.html">Badge</a></li>
+                <li><a href="./buttons.html">Buttons</a></li>
+                <li><a href="./card.html">Card</a></li>
+                <li><a href="./input.html">Input</a></li>
+                <li><a href="./textUtils.html">Text Utilities</a></li>
+                <li><a href="./input.html">Input</a></li>
+                <li><a href="./navbar.html">Navbar</a></li>
+                <li><a href="./toast.html">Toast</a></li>
+            </ul>
+        </nav-col-l>
 
-        <!-- Card With Price -->
-        <div class="price-card">
-            <span class="price-card-img">
-                <img src="../assets/realme_phone.jpeg" alt="" />
-            </span>
-            <div class="price-card-header">
-                <div class="price-card-product-name">Realme Pro 2050</div>
-                <span class="price-card-product-price">1200 Rs</span>
-                <span class="price-card-price-badge">
-                    <span class="price-card-discount-rate">20%</span>
-                    <span class="material-icons price-card-icon-discount"> discount </span>
+        <nav-col-m>
+            <button class="swap-btn">
+                <ion-icon size="large" name="swap"></ion-icon>
+            </button>
+            <nav-components data-visible="false">
+                <ul class="flex">
+                    <li><a href="./avatar.html">Avatar</a></li>
+                    <li><a href="./alert.html">Alert</a></li>
+                    <li><a href="./badge.html">Badge</a></li>
+                    <li><a href="./buttons.html">Buttons</a></li>
+                    <li><a href="./card.html">Card</a></li>
+                    <li><a href="./input.html">Input</a></li>
+                    <li><a href="./textUtils.html">Text Utilities</a></li>
+                    <li><a href="./input.html">Input</a></li>
+                    <li><a href="./navbar.html">Navbar</a></li>
+                    <li><a href="./toast.html">Toast</a></li>
+                </ul>
+            </nav-components>
+        </nav-col-m>
+    </header>
+
+    <main>
+        <div class="wrapper">
+            <code>
+                <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FVaru98%2FBeeUI%2Fblob%2F11dc825c5b38956367315af507a621044a839226%2Fpages%2Falert.html%23L8-L9&style=atom-one-light&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on&fetchFromJsDelivr=on"></script>
+          </code>
+            <div class="card">
+                <div class="card-header">This Is Wonderful</div>
+                <div class="card-body">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos, ipsam
+                    numquam, delectus beatae sequi corrupti sit cupiditate provident porro
+                    tempore reprehenderit atque qui explicabo rem nihil deserunt
+                    dignissimos quam? Corporis.
+                </div>
+                <div class="card-footer">
+                    <button class="primary-btn">Primary</button>
+                    <button class="secondary-btn">Secondary</button>
+                </div>
+            </div>
+
+            <code>
+                <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FVaru98%2FBeeUI%2Fblob%2F11dc825c5b38956367315af507a621044a839226%2Fpages%2Fcard.html%23L21-L35&style=atom-one-light&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on&fetchFromJsDelivr=on"></script>
+            </code>
+
+            <!-- Card with Image -->
+            <!-- Card With Text -->
+            <div class="card">
+                <span class="price-card-img">
+                    <img src="../assets/realme_phone.jpeg" alt="" />
                 </span>
+                <div class="card-header">This Is Wonderful</div>
+                <div class="card-body">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos, ipsam
+                    numquam, delectus beatae sequi corrupti sit cupiditate provident porro
+                    tempore reprehenderit atque qui explicabo rem nihil deserunt
+                    dignissimos quam? Corporis.
+                </div>
+                <div class="card-footer">
+                    <button class="primary-btn">Primary</button>
+                    <button class="secondary-btn">Secondary</button>
+                </div>
             </div>
-            <div class="price-card-body">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos, ipsam
-                numquam, delectus beatae sequi corrupti sit
-            </div>
-            <div class="price-card-footer">
-                <button class="secondary-btn">Details</button>
-                <button class="primary-btn">
-                    Buy
-                    <span class="material-icons price-card-icon-cart">
-                        shopping_cart
-                    </span>
-                </button>
-            </div>
-        </div>
 
-        <!-- Card With Price Horizontal-->
-        <div class="price-card-horizontal">
-            <span>
-                <img class="price-card-img-horizontal" src="../assets/realme_phone.jpeg" alt="" />
-            </span>
-            <div class="price-card--horizontal-content">
+            <code>
+                <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FVaru98%2FBeeUI%2Fblob%2F11dc825c5b38956367315af507a621044a839226%2Fpages%2Fcard.html%23L37-L54&style=atom-one-light&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on&fetchFromJsDelivr=on"></script>
+            </code>
+
+            <!-- Card With Dismiss -->
+            <div class="card">
+                <div class="card-header">
+                    This Is Wonderful
+                    <span class="material-icons card-icon-right-position"> close </span>
+                </div>
+                <div class="card-body">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos, ipsam
+                    numquam, delectus beatae sequi corrupti sit cupiditate provident porro
+                    tempore reprehenderit atque qui explicabo rem nihil deserunt
+                    dignissimos quam? Corporis.
+                </div>
+                <div class="card-footer">
+                    <button class="primary-btn">Primary</button>
+                    <button class="secondary-btn">Secondary</button>
+                </div>
+            </div>
+            <code><script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FVaru98%2FBeeUI%2Fblob%2F11dc825c5b38956367315af507a621044a839226%2Fpages%2Fcard.html%23L57-L73&style=atom-one-light&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on&fetchFromJsDelivr=on"></script></code>
+
+            <!-- Card With Price -->
+            <div class="price-card">
+                <span class="price-card-img">
+                    <img src="../assets/realme_phone.jpeg" alt="" />
+                </span>
                 <div class="price-card-header">
                     <div class="price-card-product-name">Realme Pro 2050</div>
                     <span class="price-card-product-price">1200 Rs</span>
@@ -115,10 +154,8 @@ Cards with shadow -->
                     </span>
                 </div>
                 <div class="price-card-body">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto alias quod vero accusamus id saepe
-                    voluptatibus nihil vel ullam. Suscipit a perspiciatis tempora nisi. Non dolorum nobis veniam id
-                    rerum, beatae delectus itaque, expedita perferendis natus molestiae reiciendis, similique quia sunt
-                    saepe debitis voluptate placeat totam quibusdam fugit sed modi.
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos, ipsam
+                    numquam, delectus beatae sequi corrupti sit
                 </div>
                 <div class="price-card-footer">
                     <button class="secondary-btn">Details</button>
@@ -130,8 +167,53 @@ Cards with shadow -->
                     </button>
                 </div>
             </div>
+
+            <code>
+                <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FVaru98%2FBeeUI%2Fblob%2F11dc825c5b38956367315af507a621044a839226%2Fpages%2Fcard.html%23L75-L101&style=atom-one-light&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on&fetchFromJsDelivr=on"></script>
+            </code>
+
+            <!-- Card With Price Horizontal-->
+            <div class="price-card-horizontal">
+                <span>
+                    <img class="price-card-img-horizontal" src="../assets/realme_phone.jpeg" alt="" />
+                </span>
+                <div class="price-card--horizontal-content">
+                    <div class="price-card-header">
+                        <div class="price-card-product-name">Realme Pro 2050</div>
+                        <span class="price-card-product-price">1200 Rs</span>
+                        <span class="price-card-price-badge">
+                            <span class="price-card-discount-rate">20%</span>
+                            <span class="material-icons price-card-icon-discount"> discount </span>
+                        </span>
+                    </div>
+                    <div class="price-card-body">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto alias quod vero accusamus id
+                        saepe
+                        voluptatibus nihil vel ullam. Suscipit a perspiciatis tempora nisi. Non dolorum nobis veniam id
+                        rerum, beatae delectus itaque, expedita perferendis natus molestiae reiciendis, similique quia
+                        sunt
+                        saepe debitis voluptate placeat totam quibusdam fugit sed modi.
+                    </div>
+                    <div class="price-card-footer">
+                        <button class="secondary-btn">Details</button>
+                        <button class="primary-btn">
+                            Buy
+                            <span class="material-icons price-card-icon-cart">
+                                shopping_cart
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <code>
+            <script
+            src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FVaru98%2FBeeUI%2Fblob%2F11dc825c5b38956367315af507a621044a839226%2Fpages%2Fcard.html%23L103-L133&style=atom-one-light&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on&fetchFromJsDelivr=on"></script>
+           </code>
         </div>
-    </div>
+    </main>
+    <!-- Card With Text -->
+
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
 </body>
 
 </html>
