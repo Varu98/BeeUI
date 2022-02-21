@@ -25,4 +25,5 @@
 - Input
     - textbox
     - with validation and errors style
-    ![beeui-gif](https://github.com/Varu98/BeeUI/blob/development/assets/beeui.gif)
+
+![beeui-gif](https://github.com/Varu98/BeeUI/blob/development/assets/beeui.gif)
