@@ -6,10 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <!-- Paste this code in your HTML File -->
+  <!-- Paste this code in your HTML File's Head Section -->
 
   <script src="https://kit.fontawesome.com/5548c84970.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="./styles/main.css" />
+  <link rel="stylesheet" href="https://bee-ui.netlify.app/styles/main.css" />
 
   <!-- Happy Coding  😊 -->
 
@@ -17,41 +17,41 @@
   <title>Bee UI</title>
 </head>
 
-<body class="flex-column">
+<body>
+
   <!-- ------ -->
   <!-- Navbar Starts -->
   <!-- ------ -->
 
-  <navbar class="flex-row bg-d-blue text-white">
-    <div class="navbar-list navbar-primary flex-row">
-      <a href="#" class="text-white">
-        <h1>🐝 Bee UI</h1>
-      </a>
-    </div>
-    <div class="navbar-list navbar-social">
-      <button class="hamburger-menu-btn">
-        <i class="fas fa-bars"></i>
+  <header>
+    <nav class="flex">
+
+      <!-- nav content -->
+      <logo-content class="flex">
+        <div class="logo-img ">
+          <img src="../assets/bee-icon-purple-short.png" alt="">
+        </div>
+        <h2>BEE UI</h2>
+      </logo-content>
+
+
+
+      <!-- nav menu -->
+      <!-- nav btn -->
+      <button class="menu-btn">
+        <ion-icon size="large" name="menu"></ion-icon>
       </button>
-      <ul class="flex-row navbar-ul">
-        <li>
-          <a href="#" class="navbar-link text-white">Documentation</a>
-        </li>
-        <li>
-          <a href="" class="fa-icon text-white"><i class="fab fa-github"></i></a>
-        </li>
-        <li>
-          <!-- add links -->
-          <a href="" class="fa-icon text-white"><i class="fab fa-twitter"></i></a>
-        </li>
-        <li>
-          <a href="" class="fa-icon text-white"><i class="fab fa-linkedin"></i></a>
-        </li>
-        <li>
-          <a href="" class="fa-icon text-white"><i class="far fa-moon"></i></a>
-        </li>
-      </ul>
-    </div>
-  </navbar>
+      <nav-menu data-visible="false">
+        <ul class="flex">
+          <li><a href="./docpage.html">Documentation</a></li>
+          <li><a href="https://github.com/Varu98/BeeUI">Github</a></li>
+          <li><a href="https://www.linkedin.com/in/vardaan-agarwal-a58a898b/">Linkedin</a></li>
+          <li><a href="https://twitter.com/agarwal_vardaan">Twitter</a></li>
+        </ul>
+      </nav-menu>
+    </nav>
+  </header>
+
 
   <!-- ------ -->
   <!-- Primary Section Starts -->
@@ -64,7 +64,7 @@
         components to get you started with your projects in a jiffy
       </p>
       <div class="section-btns">
-        <button class="secondary-btn">Installation</button>
+        <button class="secondary-btn"><a href="https://github.com/Varu98/BeeUI">Github</a></button>
         <button class="primary-btn"><a href="./pages/docPage.html">Documentation</a></button>
       </div>
     </div>
@@ -72,6 +72,8 @@
       <img src="./assets/pablo-983.png" alt="" />
     </div>
   </section>
+
+
   <!-- ------ -->
   <!-- Secondary Section Starts -->
   <!-- ------ -->
@@ -93,19 +95,12 @@
         <button class="primary-btn"><a href="./pages/docPage.html">Documentation</a></button>
       </div>
     </div>
-    <div class="hero-img iframe-container">
-      <iframe class="iframe-snap"
-        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=night-owl&wt=sharp&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=13px&lh=232%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%253C%21--%2520Paste%2520this%2520code%2520in%2520your%2520HTML%2520File%2520--%253E%250A%250A%2520%2520%2520%2520%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522.%252Fstyles%252Fmain.css%2522%2520%252F%253E%250A%250A%2520%2520%2520%2520%253C%21--%2520Happy%2520Coding%2520%2520%25F0%259F%2598%258A%2520--%253E%250A"
-        style="
-            width: 446px;
-            height: 340px;
-            border: 0;
-            transform: scale(1);
-            overflow: hidden;
-          " sandbox="allow-scripts allow-same-origin">
-      </iframe>
-    </div>
+    <main>
+      <code>
+      <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FVaru98%2FBeeUI%2Fblob%2F27796d0f504a4eb061f341907231f550728ff9c5%2Findex.html%23L9-L14&style=atom-one-light&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on&fetchFromJsDelivr=on"></script>
+    </code>
   </section>
+  </main>
 
   <footer class="bg-d-blue flex-row">
     <div class="navbar-list navbar-social">
@@ -122,6 +117,7 @@
       </ul>
     </div>
   </footer>
+  <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
 </body>
 
 </html>
