@@ -16,6 +16,18 @@ check section utility class as well
   margin-top: 3%;
 }
 
+code {
+  min-width: 100%;
+  max-height: 20rem;
+  border-radius: 5px;
+  overflow-y: auto;
+}
+@media (max-width: 750px) {
+  code {
+    overflow: scroll;
+  }
+}
+
 .wrapper h2 {
   margin-top: 2rem;
 }
