@@ -69,14 +69,13 @@ code {
 }
 
 /* Secondary section */
-.secondary-section {
-  margin: 3rem;
-  height: auto;
-  width: 90%;
+section .secondary-section {
+  display: flex;
 }
 @media (max-width: 768px) {
   .secondary-section {
     min-height: auto;
+    max-width: 90vw;
   }
 }
 /* Images */
