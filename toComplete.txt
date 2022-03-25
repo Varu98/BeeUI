@@ -1,0 +1,13 @@
+Here are the following components that I need to complete
+
+-Lists
+--Spaced(normal Lists)
+--Stacked (notification page)
+
+-Modal
+
+-Rating
+
+-Simplified Grid
+--grid-2: two items in a grid
+--grid-3: three items in a grid
