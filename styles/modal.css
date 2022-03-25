@@ -2,12 +2,22 @@
   width: 100vw;
   height: 100vh;
   position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+
   background-color: rgba(0, 0, 0, 0.603);
   display: flex;
   justify-content: center;
   align-items: center;
+  opacity: 0;
+  pointer-events: none;
 }
 
+.modal__wrapper.show {
+  opacity: 1;
+  pointer-events: all;
+}
 .modal {
   width: 20rem;
   max-width: 100%;
