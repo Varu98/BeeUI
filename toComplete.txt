@@ -4,7 +4,6 @@ Here are the following components that I need to complete
 --Spaced(normal Lists)
 --Stacked (notification page)
 
--Modal
 
 -Rating
 
