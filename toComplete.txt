@@ -1,8 +1,5 @@
 Here are the following components that I need to complete
 
--Lists
---Spaced(normal Lists)
---Stacked (notification page)
 
 
 -Rating
