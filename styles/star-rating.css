@@ -1,0 +1,13 @@
+.star-rating-group {
+  display: flex;
+}
+.star-list-item-grey {
+  color: grey;
+  font-size: 2rem;
+  padding: 0.5rem;
+}
+.star-list-item-yellow {
+  color: hsl(var(--canary-yellow));
+  font-size: 2rem;
+  padding: 0.5rem;
+}
