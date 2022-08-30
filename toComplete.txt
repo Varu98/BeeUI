@@ -1,0 +1,9 @@
+Here are the following components that I need to complete
+
+
+
+-Rating
+
+-Simplified Grid
+--grid-2: two items in a grid
+--grid-3: three items in a grid

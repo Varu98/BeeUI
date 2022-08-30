@@ -49,6 +49,29 @@
   border-radius: 4px;
   max-width: 20rem;
 }
+@media (max-width: 500px) {
+  .price-card {
+    max-width: 15rem;
+    padding: 1rem;
+  }
+  .price-card-header {
+    max-width: 10rem;
+  }
+  .price-card-btn {
+    font-size: 0.7rem;
+    max-width: 4rem;
+    max-height: 3rem;
+  }
+  .price-card-icon-cart {
+    display: none;
+  }
+  .price-card-product-name {
+    font-size: 1.2rem;
+  }
+  .price-card-body {
+    font-size: 0.8rem;
+  }
+}
 
 .price-card-header {
   width: calc(20rem - 2rem);
