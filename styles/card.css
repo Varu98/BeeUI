@@ -96,7 +96,7 @@
 }
 
 .price-card-product-name {
-  min-width: calc(20rem - 2rem);
+  max-width: calc(20rem - 2rem);
   color: hsl(var(--light-blue));
   font-weight: 500;
 }
