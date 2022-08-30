@@ -42,6 +42,12 @@
   .section-btns {
     text-align: center;
   }
+  .primary-btn {
+    padding: 0.5rem 0.7rem;
+  }
+  .secondary-btn {
+    padding: 0.5rem 0.7rem;
+  }
 }
 
 /* Hamburger Menu */
